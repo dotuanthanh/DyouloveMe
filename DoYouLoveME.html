@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Do You Love Me ?</title>
+</head>
+<body>
+<h4> Do You Love Me ?</h4>
+<button onclick="alert('HIHI <3')"> Yes</button>
+<input value="No" id="Move" onmouseover="run()" style="position: relative" type="button">
+</body>
+</html>
+<script>
+    function run() {
+        document.getElementById('Move').style.top = Math.floor(Math.random() * (window.innerHeight -100 ) )+ 'px'
+        document.getElementById('Move').style.left = Math.floor(Math.random() * (window.innerWidth -100 ) )+ 'px'
+
+    }
+
+</script>
